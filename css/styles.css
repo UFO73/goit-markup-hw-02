@@ -52,7 +52,7 @@ text-decoration: none;
 
 /* Hero */
 
-.hero {
+.hero, .footer {
     background-color: var(--title-text-color);
 }
 
@@ -67,6 +67,7 @@ text-decoration: none;
 
 /* Footer */
 
+
 .logo-footer {
     color: var(--logo-footer-white);
 
@@ -78,3 +79,33 @@ text-decoration: none;
     color: var(--footer-text);
 }
 
+/* Portfolio */
+
+.filter-btn {
+    color: var(--accent-color);
+    background-color: var(--logo-footer-white);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--white-accent-color);
+    background-color: var(--accent-color);
+}
+
+/* Portfolio main */
+
+.examples a {
+    text-decoration: none;
+}
+
+.examples-title {
+    color: var(--title-text-color);
+}
+
+.examples-text {
+    color: var(--primary-text-color);
+}
+
+.examples-text-accent {
+color: var(--logo-footer-white);
+}
