@@ -1,0 +1,80 @@
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --white-accent-color: #FFFFFF;
+    --logo-footer-white: #F4F4FD;
+    --footer-text: #E7E9FC;
+}
+
+body {
+    background-color: var(--white-accent-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+
+/* logo */
+
+.logo {
+color: var(--title-text-color);
+
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+/* Header */
+.page-header a {
+    text-decoration: none;
+}
+
+.page-nav a {
+    color: var(--title-text-color);
+
+}
+
+.contact a {
+    color: var(--primary-text-color);
+}
+
+/* Main */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--title-text-color);
+}
+
+.hero-title {
+    color: var(--white-accent-color);
+}
+/* Hero button */
+.hero-btn {
+    background-color: var(--accent-color);
+    color: var(--white-accent-color);
+}
+
+/* Footer */
+
+.logo-footer {
+    color: var(--logo-footer-white);
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: var(--footer-text);
+}
+
