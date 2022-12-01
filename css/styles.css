@@ -1,6 +1,7 @@
 :root {
     --primary-text-color: #434455;
     --title-text-color: #2E2F42;
+    --accent-color-btn: #404BBF;
     --accent-color: #4D5AE5;
     --white-accent-color: #FFFFFF;
     --logo-footer-white: #F4F4FD;
@@ -20,8 +21,17 @@ body {
 }
 
 .hidden {
-    display: none;
-}
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} 
 
 
 /* logo */
@@ -126,6 +136,20 @@ line-height: 1.3;
     line-height: 1.19;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--accent-color-btn);
+}
+
+/* Team section */
+.section-team {
+    background-color: var(--logo-footer-white);
+}
+
+.team-item {
+    background-color: var(--white-accent-color);
+}
+
 /* Footer */
 
 
@@ -179,3 +203,5 @@ line-height: 1.3;
 .examples-text-accent {
 color: var(--logo-footer-white);
 }
+
+
